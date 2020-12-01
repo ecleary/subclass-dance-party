@@ -20,8 +20,26 @@ body, a:link, a:visited, a:active{
 .title{
   background-color: #777;
 }
-.dancer{
-  border:10px solid red;
+.dancer {
+  /* maybe later  */
+}
+.blinkyDancer{
+  border:10px solid green;
+  border-radius:10px;
+  position:absolute;
+}
+.bouncyDancer{
+  border:10px solid purple;
+  border-radius:10px;
+  position:absolute;
+}
+.batmanDancer{
+  border:10px solid orange;
+  border-radius:10px;
+  position:absolute;
+}
+.superHeroDancer{
+  border:10px solid salmon;
   border-radius:10px;
   position:absolute;
 }

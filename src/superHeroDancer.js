@@ -1,5 +1,6 @@
 var makeSuperHeroDancer = function(top, left, timeBetweenSteps) {
   makeDancer.call(this, top, left, timeBetweenSteps);
+  this.$node.addClass('superHeroDancer');
 };
 
 makeSuperHeroDancer.prototype = Object.create(makeDancer.prototype);
