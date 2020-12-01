@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-color:#444;
+  background-color:rgb(155, 115, 115);
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
@@ -24,7 +24,7 @@ body, a:link, a:visited, a:active{
   /* maybe later  */
 }
 .blinkyDancer{
-  border:10px solid green;
+  border:10px solid red;
   border-radius:10px;
   position:absolute;
 }
@@ -34,12 +34,11 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .batmanDancer{
-  border:10px solid orange;
+  border:10px solid black;
   border-radius:10px;
   position:absolute;
 }
 .superHeroDancer{
-  border:10px solid salmon;
   border-radius:10px;
   position:absolute;
 }
