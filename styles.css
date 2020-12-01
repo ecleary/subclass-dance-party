@@ -39,6 +39,10 @@ body, a:link, a:visited, a:active{
   position:absolute;
 }
 .superHeroDancer{
+  /* height:1rem;
+  width:1rem; */
+  border:20px solid;
+  /* border-width:20px; */
   border-radius:10px;
   position:absolute;
 }
