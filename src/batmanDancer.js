@@ -1,5 +1,7 @@
 var makeBatmanDancer = function(top, left, timeBetweenSteps) {
   makeSuperHeroDancer.call(this, top, left, timeBetweenSteps);
+  this.$node.find('img').attr('src', '../images/batman.png');
+  this.$node.find('img').attr('style', 'width: "55px" height: "50px"');
   this.$node.addClass('batmanDancer');
   this.$node.removeClass('superHeroDancer');
 };

@@ -9,6 +9,13 @@
     <script src="src/superHeroDancer.js"></script>
     <script src="src/batmanDancer.js"></script>
     <script src="src/bouncyDancer.js"></script>
+    <script>
+      var lineUpHandler = function() {
+        dancers.forEach(function(dancer) {
+          dancer.css('left', '0');
+        });
+      };
+    </script>
   </head>
   <body>
     <div class="topbar">
@@ -17,6 +24,7 @@
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBouncyDancer">add a bouncy dancer</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeSuperHeroDancer">add a superHero dancer</a>
       <a href="#" class="addDancerButton" data-dancer-maker-function-name="makeBatmanDancer">add a batman dancer</a>
+      <button class="lineUpButton" onclick="lineUpHandler()">line up</button>
     </div>
     <script src="src/init.js"></script>
   </body>

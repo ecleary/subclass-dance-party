@@ -2,12 +2,18 @@ body, html{
   height:100%;
 }
 body{
+  background-image: url('images/background.jpg');
+  background-size: cover;
   margin: 0px;
   background-color:rgb(155, 115, 115);
   font-size: 18px;
 }
 body, a:link, a:visited, a:active{
   color: lightblue;
+  text-decoration: none;
+}
+a:hover{
+  color: rgb(139, 101, 30);
 }
 .title, .addDancerButton{
   padding:5px 12px;
@@ -15,34 +21,37 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: rgba(85,85,85, .3);
 }
 .title{
-  background-color: #777;
-}
-.dancer {
-  /* maybe later  */
+  background-color: rgba(65, 38, 38, 0.3);
 }
 .blinkyDancer{
-  border:10px solid red;
-  border-radius:10px;
+  background-image: url('images/blinky.png');
   position:absolute;
 }
 .bouncyDancer{
-  border:10px solid purple;
-  border-radius:10px;
+
   position:absolute;
+
 }
 .batmanDancer{
-  border:10px solid black;
-  border-radius:10px;
   position:absolute;
 }
 .superHeroDancer{
-  /* height:1rem;
-  width:1rem; */
-  border:20px solid;
-  /* border-width:20px; */
   border-radius:10px;
   position:absolute;
 }
+
+.lineUpButton {
+  margin: 5px;
+  font-size: 16px;
+  color: lightblue;
+  background-color: rgba(139, 101, 30, 0.2);
+}
+
+.lineUpButton:hover {
+  background-color: rgb(139, 101, 30);
+  cursor: pointer;
+}
+
